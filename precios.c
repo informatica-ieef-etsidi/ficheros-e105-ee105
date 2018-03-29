@@ -22,9 +22,14 @@ void main() {
 	for (i = 0; i < NUMPROD; i++) {
 		printf("Dame el precio del producto %d\n", i + 1);
 		scanf_s("%f", &producto[i].precio);
+		while (producto[i].precio <= 0) {
+			printf("Has introducido un precio no valido para el producto %d\n", i + 1);
+			printf("Vuelve a introducirlo\n");
+			scanf_s("%f", &producto[i].precio);
+		}
 		printf("Dame el descuento del producto %d en tanto por ciento\n", i + 1);
 		scanf_s("%f", &producto[i].descuento);
-		if (producto[i].descuento > 100) {
+		while (producto[i].descuento < 0 || producto[i].descuento > 100) {
 			printf("El descuento del producto %d no es valido\n", i + 1);
 			printf("Vuelve a introducirlo\n");
 			scanf_s("%f", &producto[i].descuento);
