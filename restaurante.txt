@@ -1,0 +1,12 @@
+COMIDA:
+	1. Bocadillo de tortilla (4€)
+	2. Bocadillo de jamon (5€)
+	3.Bocadillo de lomo (4€) 
+	4. Sandwich mixto (3€)
+
+BEBIDAS: 
+	1. Agua (1€)
+	2. Refresco(1.5€)
+	3. Cerveza (1.25€)
+	4. Cafe(1€)
+
