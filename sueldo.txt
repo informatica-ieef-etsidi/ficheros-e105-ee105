@@ -1,0 +1,8 @@
+EL SUELDO SEMANAL ES:
+1. Codigo de empleado: 52250	Sueldo: 825.00 
+2. Codigo de empleado: 52249	Sueldo: 728.00 
+3. Codigo de empleado: 52258	Sueldo: 480.00 
+EL SUELDO ANUAL ES:
+1. Codigo de empleado: 52250	Sueldo: 43017.86 
+2. Codigo de empleado: 52249	Sueldo: 37960.00 
+3. Codigo de empleado: 52258	Sueldo: 25028.57 
